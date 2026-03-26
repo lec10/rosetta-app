@@ -40,8 +40,9 @@ export function convertImscToRosetta(xmlString: string): string {
     const el = regionElements[i];
     const originalId = el.getAttribute("xml:id") || "";
     const displayAlign = el.getAttributeNS(TTS_NS, "displayAlign") || "after";
-    const origin = el.getAttributeNS(TTS_NS, "origin") || "10% 10%";
-    const extent = el.getAttributeNS(TTS_NS, "extent") || "80% 80%";
+    // Always use standard Rosetta region values
+    const origin = "10% 10%";
+    const extent = "80% 80%";
 
     // Map to Rosetta region IDs: R0 for after, R10 for before
     let rosettaId: string;
