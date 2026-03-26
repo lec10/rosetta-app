@@ -113,6 +113,9 @@ export default function Home() {
             </p>
           </div>
         )}
+        <p className="text-xs text-center text-zinc-400 dark:text-zinc-600">
+          v1.1.0
+        </p>
       </div>
     </div>
   );
