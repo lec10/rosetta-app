@@ -61,7 +61,7 @@ export default function Home() {
         </h1>
 
         <p className="text-sm text-center text-zinc-500 dark:text-zinc-400">
-          Sube un archivo IMSC 1.1 (.xml) exportado desde EZTitles y
+          Carga un archivo IMSC 1.1 (.xml) exportado desde EZTitles y
           descarga el archivo IMSC-Rosetta (.imscr).
         </p>
 
